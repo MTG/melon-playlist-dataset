@@ -15,6 +15,8 @@ In order to access the dataset is required to register and login in [Kakao Arena
 
 ### Description of the files 
 
+In [Melon Music Dataset page](https://arena.kakao.com/c/8/data) you can find the following files to download:
+
  - `song_meta.json`: contains information for the 707,989 songs, including:
    - `_id`: Song ID
    - `album_id`: Album ID
