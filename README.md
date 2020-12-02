@@ -1,15 +1,15 @@
 ## Introduction
 
-The Melon Music Dataset is a public dataset that was collected from [Melon](http://www.melon.com), the most popular music platform in Korea. In this page we give some information of the dataset and describe how to access it.
+The Melon Music Dataset is a public dataset that was collected from [Melon](http://www.melon.com), the most popular music platform in Korea. On this page, we give some information about the dataset and describe how to access it.
 
 
-The dataset was originally created for the task of automatic playlist continuation, and it was used for a competition between April and July 2020. The platform [Kakao Area](https://arena.kakao.com/c/8) was used to host the competition. After the end of the competition this platform offer the chance to submit solutions which can be used for benchmarking since the test dataset is private.
+The dataset was originally created for the task of automatic playlist continuation, and it was used for a competition between April and July 2020. The platform [Kakao Area](https://arena.kakao.com/c/8) was used to host the competition. After the end of the competition, this platform offers the chance to submit solutions that can be used for benchmarking since the test dataset is private.
 
-The Melon Music Dataset contains 115,071 playlists in the training set and 707,989 songs, it also contains genre infomration for the songs and tag information for the playlists.  For all the songs, the mel-spectrogram representation of the audio is provided which enbales the poissiblity of appling content-based approaches.
+The Melon Music Dataset contains 115,071 playlists in the training set and 707,989 songs, it also contains genre information for the songs and tag information for the playlists.  For all the songs, the mel-spectrogram representation of the audio is provided which enables the possibility of applying content-based approaches.
 
 ### Download
 
-In order to access the dataset is required to register and login in [Kakao Arena](https://arena.kakao.com/c/8/data), after that the link to downlaod each file of the dataset will be available.
+In order to access the dataset is required to register and login in [Kakao Arena](https://arena.kakao.com/c/8/data), after that the link to download each file of the dataset will be available.
 
 
 ### Description of the files 
@@ -43,3 +43,8 @@ mel = np.load("0.npy")
 ```
 
 Song IDs are assigned from 0 to 707988. Since the number of files is large, each npy file is located in a folder which is named in the following way: {floor(ID / 1000)}. For example, in the case of a file with a an ID of 415263 the loaction is 415/415263.npy
+
+
+### Cite 
+
+Please citing the following publication when using the dataset: TODO
