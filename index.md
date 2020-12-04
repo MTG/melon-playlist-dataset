@@ -1,4 +1,4 @@
-## Music Music Dataset
+## Melon Music Dataset
 
 The Melon Music Dataset is a public MIR dataset provided by Kakao Corp. Using the data from [Melon](http://www.melon.com), the most popular music streaming platform in Korea, and used in research by Music Technology Group. On this page, we give a summary of the dataset and describe how to access it. Check the official web page for more details.
 
