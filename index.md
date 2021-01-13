@@ -1,10 +1,10 @@
-## Melon Music Dataset
+## Melon Playlist Dataset
 
-The Melon Music Dataset is a public MIR dataset provided by Kakao Corp. Using the data from [Melon](http://www.melon.com), the most popular music streaming platform in Korea, and used in research by Music Technology Group. On this page, we give a summary of the dataset and describe how to access it. Check the official web page for more details.
+The Melon Playlist Dataset is a public MIR dataset provided by Kakao Corp. Using the data from [Melon](http://www.melon.com), the most popular music streaming platform in Korea, and used in research by Music Technology Group. On this page, we give a summary of the dataset and describe how to access it. Check the official web page for more details.
 
 The dataset was originally created for the task of automatic playlist continuation, and it was used for a competition between April and July 2020. The platform [Kakao Area](https://arena.kakao.com/c/8) was used to host the competition. After the end of the competition, this platform offers the chance to submit solutions that can be used for benchmarking since the test dataset is private.
 
-The Melon Music Dataset contains 115,071 playlists in the training set and 707,989 songs, it also contains genre information for the songs and tag information for the playlists.  For all the songs, the mel-spectrogram representation of the audio is provided which enables the possibility of applying content-based approaches.
+The Melon Playlist Dataset contains 115,071 playlists in the training set and 707,989 songs, it also contains genre information for the songs and tag information for the playlists.  For all the songs, the mel-spectrogram representation of the audio is provided which enables the possibility of applying content-based approaches.
 
 
 ### Download
@@ -14,7 +14,7 @@ In order to access the dataset is required to register and login in [Kakao Arena
 
 ### Description of the files 
 
-In [Melon Music Dataset page](https://arena.kakao.com/c/8/data) you can find the following files to download:
+In [Melon Playlist Dataset page](https://arena.kakao.com/c/8/data) you can find the following files to download:
 
  - `song_meta.json`: contains information for the 707,989 songs, including:
    - `_id`: Song ID
