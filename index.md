@@ -9,12 +9,12 @@ The Melon Playlist Dataset contains 115,071 playlists in the training set and 70
 
 ### Download
 
-In order to access the dataset is required to register and login in [Kakao Arena](https://arena.kakao.com/c/8/data), after that the link to download each file of the dataset will be available.
+In order to access the dataset go to the [Melon Playlist Dataset download page](https://arena.kakao.com/melon_dataset), after accpeting the conditions the link to download each file of the dataset will be available.
 
 
 ### Description of the files 
 
-In [Melon Playlist Dataset page](https://arena.kakao.com/c/8/data) you can find the following files to download:
+In [Melon Playlist Dataset page](https://arena.kakao.com/melon_dataset) you can find the following files to download:
 
  - `song_meta.json`: contains information for the 707,989 songs, including:
    - `_id`: Song ID
