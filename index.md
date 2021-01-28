@@ -4,12 +4,12 @@ The Melon Playlist Dataset is a public MIR dataset provided by Kakao Corp. Using
 
 The dataset was originally created for the task of automatic playlist continuation, and it was used for a competition between April and July 2020. The platform [Kakao Area](https://arena.kakao.com/c/8) was used to host the competition. After the end of the competition, this platform offers the chance to submit solutions that can be used for benchmarking since the test dataset is private.
 
-The Melon Playlist Dataset contains 115,071 playlists in the training set and 707,989 songs, it also contains genre information for the songs and tag information for the playlists.  For all the songs, the mel-spectrogram representation of the audio is provided which enables the possibility of applying content-based approaches.
+The Melon Playlist Dataset contains 115,071 playlists in the training set and 707,989 songs, it also contains genre information for the songs and tag information for the playlists.  For all the songs, the mel-spectrogram representation of a segment (20-50s) of the audio is provided which enables the possibility of applying content-based approaches.
 
 
 ### Download
 
-In order to access the dataset go to the [Melon Playlist Dataset download page](https://arena.kakao.com/melon_dataset), after accpeting the conditions the link to download each file of the dataset will be available.
+In order to access the dataset go to the [Melon Playlist Dataset download page](https://arena.kakao.com/melon_dataset), after accepting the conditions the link to download each file of the dataset will be available.
 
 
 ### Description of the files 
@@ -44,7 +44,7 @@ import numpy as np
 mel = np.load("0.npy")
 ```
 
-Song IDs are assigned from 0 to 707988. Since the number of files is large, each npy file is located in a folder which is named in the following way: {floor(ID / 1000)}. For example, in the case of a file with a an ID of 415263 the loaction is 415/415263.npy
+Song IDs are assigned from 0 to 707988. Since the number of files is large, each npy file is located in a folder which is named in the following way: {floor(ID / 1000)}. For example, in the case of a file with a an ID of 415263 the location is 415/415263.npy
 
 ### Cite 
 
