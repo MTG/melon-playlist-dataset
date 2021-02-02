@@ -50,7 +50,7 @@ Song IDs are assigned from 0 to 707988. Since the number of files is large, each
 
 Please citing the following publication when using the dataset: 
 
-> Ferraro A., Kim Y., Lee S., Kim. B., Jo N., Lim S., Lim S., Jan J., Kim S., Serra X. & Bogdanov D. (2019).  "Melon Playlist Dataset: a public dataset for audio-based playlist generation and music tagging". International Conference on Acoustics, Speech and Signal Processing (ICASSP 2021).
+> Ferraro A., Kim Y., Lee S., Kim. B., Jo N., Lim S., Lim S., Jan J., Kim S., Serra X. & Bogdanov D. (2019).  ["Melon Playlist Dataset: a public dataset for audio-based playlist generation and music tagging"](https://arxiv.org/abs/2102.00201). International Conference on Acoustics, Speech and Signal Processing (ICASSP 2021).
 
 ```
 @conference {bogdanov2019mtg,
